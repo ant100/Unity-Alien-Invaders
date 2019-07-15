@@ -1,0 +1,16 @@
+.DS_Store
+
+Logs/*
+obj/*
+ProjectSettings/*
+Temp/*
+.vs/*
+
+AlienInvaders.csproj
+AlienInvaders.sln
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+Unity.Analytics.DataPrivacy.csproj
+Unity.CollabProxy.Editor.csproj
+Unity.TextMeshPro.csproj
+Unity.TextMeshPro.Editor.csproj
