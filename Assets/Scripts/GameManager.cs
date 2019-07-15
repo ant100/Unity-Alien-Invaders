@@ -40,18 +40,6 @@ public class GameManager : MonoBehaviour
         setupDefaults();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // setup all the variables, the UI, and provide errors if things not setup properly.
     void setupDefaults()
     {
@@ -132,9 +120,14 @@ public class GameManager : MonoBehaviour
         audio.Play();
 
         yield return new WaitForSeconds(2.5f);
-        // reset number of enemies
+        // reset number of killed enemies
         _enemiesKilled = 0;
 
+        if(levelAfterVictory == "You Win")
+        {
+            // reset number of enemies
+            PlayerPrefManager.ResetPlayerState();
+        }
         SceneManager.LoadScene(levelAfterVictory);
     }
 

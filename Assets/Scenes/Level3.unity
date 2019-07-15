@@ -746,6 +746,7 @@ MonoBehaviour:
   levelAfterGameOver: Game Over
   score: 0
   winningSFX: {fileID: 8300000, guid: 2fed5379fa6fa514b9ec79eb247527a6, type: 3}
+  gameOverSFX: {fileID: 8300000, guid: edb9a50718798ef479610802267f8165, type: 3}
   UIScore: {fileID: 1425684395}
   _enemiesKilled: 0
 --- !u!4 &269035717 stripped
