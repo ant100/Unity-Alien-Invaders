@@ -3,6 +3,7 @@ Small game based on good ol' Space Invaders. Built with Unity. You can shoot the
 
 ![alt text](https://github.com/ant100/AlienInvaders/blob/master/ScreenShots/1.png) Alien Invaders!
 
+
 # What I learned
 * Manipulate and apply an existing Game Manager class
 * How to load different levels
