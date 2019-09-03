@@ -8,7 +8,6 @@ Small game based on good ol' Space Invaders. Built with Unity. You can shoot the
 * How to load different levels
 * How to add sprites
 * Colliders using OnTriggerEnter2D 
-* Coroutines
 
 # Sources
 Sprites from: [The Spriters Resource](https://www.spriters-resource.com)
